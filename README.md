@@ -24,7 +24,7 @@ A simple REST API built with Django and Django REST Framework to handle contact 
   "email": "rakib@example.com",
   "message": "Hi! This is a test message."
 }
-
+```
 
 Success Response
 Status: 201 Created
@@ -41,34 +41,39 @@ Edit
   "email": "rakib@example.com",
   "message": "Hi! This is a test message."
 }
+
+---
+
 🛠 Tech Stack
-Python 3.x
-
-Django
-
-Django REST Framework
+• Python 3.x
+• Django
+• Django REST Framework
 
 🧪 Setup Instructions
-bash
-Copy
-Edit
+```
 # Clone the repository
 git clone https://github.com/RR0327/contact-form-api.git
 cd contact-form-api
-
+```
+```
 # (Optional) Create a virtual environment
 python -m venv env
 source env/bin/activate    # Linux/macOS
 env\Scripts\activate       # Windows
-
+```
+```
 # Install dependencies
 pip install -r requirements.txt
-
+```
+```
 # Run migrations
 python manage.py migrate
-
+```
+```
 # Start development server
 python manage.py runserver
+```
+
 📬 Contact
 Created by Md Rakibul Hassan
 Email: rakibulhassanmiyaji27@gmail.com
@@ -77,18 +82,5 @@ GitHub: RR0327
 📝 License
 This project is open-source and available under the MIT License.
 
-yaml
-Copy
-Edit
-
 ---
 
-### ✅ Next Steps
-
-1. Save this as `README.md` in your project root.
-2. Commit and push:
-
-```bash
-git add README.md
-git commit -m "Add README"
-git push origin main
