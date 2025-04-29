@@ -30,10 +30,7 @@ Success Response
 Status: 201 Created
 
 Body:
-
-json
-Copy
-Edit
+```
 {
   "first_name": "Rakibul",
   "last_name": "Hassan",
@@ -41,18 +38,20 @@ Edit
   "email": "rakib@example.com",
   "message": "Hi! This is a test message."
 }
-
+```
 ---
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 • Python 3.x
+
 • Django
+
 • Django REST Framework
 
 🧪 Setup Instructions
 ```
 # Clone the repository
-git clone https://github.com/RR0327/contact-form-api.git
+git clone https://github.com/YOUR_USERNAME/contact-form-api.git
 cd contact-form-api
 ```
 ```
@@ -75,9 +74,12 @@ python manage.py runserver
 ```
 
 📬 Contact
+
 Created by Md Rakibul Hassan
+
 Email: rakibulhassanmiyaji27@gmail.com
-GitHub: RR0327
+
+GitHub: [RR0327](https://github.com/RR0327)
 
 📝 License
 This project is open-source and available under the MIT License.
